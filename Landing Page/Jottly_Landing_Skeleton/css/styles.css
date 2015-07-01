@@ -1,0 +1,466 @@
+
+/* Overall Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+  font-family: 'BPreplay';
+  src: url('https://drive.google.com/file/d/0B850chTAYScZTnE4THM4dXl4YTA/view?usp=sharing') format('opentype')
+}
+
+body {
+  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 2;
+  font-weight: 300;
+  font-family: 'BPreplay', Helvetica, Arial, sans-serif;
+  color: #535454;
+}
+
+h1, h2, h3 {
+  font-weight:normal;
+  color: #ffffff;
+}
+
+h1 {
+  font-size:45px;
+}
+
+h2 {
+  font-size:26px;
+  line-height: .1;
+  letter-spacing: .004em;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+
+h3 {
+    font-size:19px;
+    line-height: .1;
+    letter-spacing: .004em;
+}
+
+.goldtext {
+  display: block;
+  font-size: 19px;
+  color: rgb(232, 199, 28);
+  font-weight: bold;
+  letter-spacing: .5px;
+  padding-bottom: 6px;
+}
+
+.bignumber {
+  font-size: 65px;
+  line-height: 1.2;
+}
+
+.button, 
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    background-color: rgb(5, 154, 223);
+    color: #fff;
+    letter-spacing: 3px;
+  }
+
+/* Button for Mobile
+____________________*/
+@media only screen and (max-width: 479px) {
+
+.button, 
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    background-color: rgb(5, 154, 223);
+    color: #fff;
+    letter-spacing: 3px;
+  }
+}/* end mobile */
+
+ .button a:hover {
+  color: rgb(5, 154, 223);
+  background-color: #B4DCEE;
+  border: 1px solid #fff;
+}
+
+
+
+
+/* Band Section Styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.band_header {
+  text-align: center;
+  padding-top: 0px;
+}
+
+.band {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.band-heading,
+.band-description {
+  margin-bottom: 1.2rem;
+}
+
+
+
+
+
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.logo {
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  margin-right: 40px;
+  margin-top:10px;
+  float: right;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.nav li {
+  padding: 5px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+ .nav a:hover{
+  color: #B4DCEE;
+  border-bottom: 4px solid rgb(5, 154, 223);
+  padding-bottom: 10px;
+
+}
+
+/* Navigation for Mobile
+––––––––––––––––––––––––– */
+@media only screen and (max-width: 479px) {
+  
+  .logo {
+    display:block;
+    margin-top:15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px 5px;
+  }
+
+  .nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .nav li {
+    padding: 8px 0px;
+    margin: 15px 0px;
+    display: block;
+    vertical-align:middle;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: rgb(5, 154, 223)
+  }
+} /* end mobile */
+
+
+
+/* Hero Band
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero {
+  background-image: url("https://dl.dropboxusercontent.com/u/385296012/mainimage_gradient.png");
+  background-size: cover;
+  background-position: center center;
+  min-height:400px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.herotext {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 15px;
+
+}
+
+/* Hero Band for Mobile
+––––––––––––––––––––––––– */
+@media only screen and (max-width: 479px) {
+
+.hero {
+  padding-bottom: 18px;
+}
+
+.herotext {
+  padding-bottom: 5px;
+}
+
+.herotext h3 {
+  line-height: 1.5;
+}
+} /* end mobile */
+
+
+/* Benefits Band
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.benefits {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.benefit_icon fa { 
+
+}
+
+.benefit_iconpencil{
+  width: 140px;
+  height: 140px;
+  border-radius: 70px; 
+  background-color: rgb(5, 154, 223);
+  color:#fff; 
+  margin: 0 auto;
+  font-size: 4.2em;
+  line-height: 140px; /*vertically centers the icon within the circle*/
+
+}
+
+.benefit_iconenvelope{
+  width: 140px;
+  height: 140px;
+  border-radius: 70px; 
+  background-color: rgb(5, 154, 223);
+  color:#fff; 
+  margin: 0 auto;
+  font-size: 3.8em;
+  line-height: 140px; /*vertically centers the icon within the circle*/
+
+}
+
+.benefit_iconlight{
+  width: 140px;
+  height: 140px;
+  border-radius: 70px; 
+  background-color: rgb(5, 154, 223);
+  color:#fff; 
+  margin: 0 auto;
+  font-size: 4.4em;
+  padding:;
+  line-height: 140px; /*vertically centers the icon within the circle*/
+}
+
+
+.benefit_group {
+  padding-bottom:45px;
+  display: inline-block;
+}
+
+.benefit_description {
+  line-height: 1.6;
+  padding: 20px 5px 10px 5px;
+  text-align: center;
+}
+
+/* Benefit Band for Mobile
+––––––––––––––––––––––––– */
+@media only screen and (max-width: 479px) {
+
+.benefit_group {
+  padding-bottom:40px;
+  display: block;
+}
+}/* end mobile */
+
+
+
+
+/* NOT WORKING - 
+.benefit_description p{
+  widows: 1;
+  orphans: 1;
+}
+STILL NEED SOLUTION */
+
+
+
+/* How People Use Band
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.use_jottly {
+  background-color: rgb(5, 154, 223);
+  padding-bottom:30px;
+}
+
+.user_bio {
+  margin: 0 auto;
+  color: #fff;
+  text-align: left;
+}
+
+.img_circle {
+  border: 2px solid #fff;
+  width: 200px;
+  height: 200px;
+  background-image: url("https://dl.dropboxusercontent.com/u/385296012/userphoto_1.png");
+  background-size: cover;
+  border-radius: 100px; 
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* How People Use Band for Mobile
+––––––––––––––––––––––––– */
+@media only screen and (max-width: 479px) {
+
+.user_bio {
+  line-height: 1.5;
+  display: block;
+}
+
+.img_circle {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+}/* end mobile */
+
+
+
+/* Pricing Band
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.pricing {
+  background-color: rgb(232, 199, 28);
+  background-image: url("http://db.tt/aEw2GoUU");
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  min-height: 530px;
+}
+
+.pricingboxes {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  min-width: 260px;
+  height: 360px;
+  margin: 0 auto;
+  padding: 20px 10px 10px 10px;
+  vertical-align: middle;
+  position: relative;   /*  for buybutton child center/bottom position */
+}
+
+#buybutton {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+}
+
+#buybutton a:hover {
+  color: rgb(5, 154, 223);
+  background-color: #B4DCEE;
+  border: none;
+
+}
+
+/* Pricing Band for Mobile
+––––––––––––––––––––––––– */
+@media only screen and (max-width: 479px) {
+
+.pricing {
+  min-height: 530px;
+}
+
+.pricingboxes {
+  display: block;
+  background-color: #fff;
+  line-height: 1.5;
+  height: 280px;
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 20px 10px 35px 10px;
+  vertical-align: middle;
+  position: relative;   /*  for buybutton child center/bottom position */
+}
+
+
+#buybutton {
+  margin: 0 auto;
+}
+}/* end mobile */
+
+
+
+/* Footer Band
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footer {
+  background-color:#050505;
+  margin: 0 auto;
+  font-size:90%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 30px;
+}
+
+.footer li {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 30px 8px 30px;
+  letter-spacing: 2px;
+  text-decoration: bolder;
+}
+
+.footer_copyright {
+  font-size: 85%;
+  color: #535454;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  letter-spacing: .45px;
+}
+
+/* Footer Band for Mobile
+––––––––––––––––––––––––– */
+@media only screen and (max-width: 479px) {
+
+.footer ul {
+  list-style: none;
+  margin: 0 auto;
+  padding-top: 15px;}
+
+.footer li {
+  display: block;
+  text-align: left;
+  color: #fff;
+  padding: 15px 5px 5px 5px;
+}
+
+}/* end mobile */
+
+
+
+
+
+/* end styles */

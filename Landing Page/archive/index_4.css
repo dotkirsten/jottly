@@ -1,0 +1,37 @@
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+  font-family: 'BPreplay';
+  src: url('https://drive.google.com/file/d/0B850chTAYScZTnE4THM4dXl4YTA/view?usp=sharing') format('opentype')
+}
+
+h1, h2, h3 {
+  font-weight:normal;
+}
+
+h1 {
+    font-size:55px; 
+}
+
+h2 {
+    font-size:18px; 
+    line-height: .2;
+}
+
+h3 {
+    color:#059adf;
+    font-size:24px; 
+}
+
+
+body {
+  font-size:14px;
+  line-height:1.7;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  color:#ffffff;
+  padding: 0;
+  margin: 0;
+  
+}
+

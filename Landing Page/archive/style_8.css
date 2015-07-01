@@ -1,0 +1,322 @@
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+  font-family: 'BPreplay';
+  src: url('https://drive.google.com/file/d/0B850chTAYScZTnE4THM4dXl4YTA/view?usp=sharing') format('opentype')
+}
+
+body {
+  background-color:rgb(255,255,255);
+  font-size:14px;
+  line-height:1.7;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  color:#535454;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+h1, h2, h3 {
+  font-weight:normal;
+  color: #ffffff;
+}
+
+h1 {
+    font-size:45px;
+    text-align: center;
+}
+
+h2 {
+    font-size:20px;
+    line-height: .1;
+}
+
+.goldtext {
+  display: block;
+  font-size: 18px;
+  color: rgb(232, 199, 28);
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+/* IDs & Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bignumber {
+  font-size: 65px;
+}
+
+
+
+#line {
+  border-width: 3px;
+  border-color: rgb(216, 216, 216);
+  border-style: solid;
+}
+
+
+/* Divs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* –––––––––––––––––––nav section––––––––––––––––––– */
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 10px 15px 10px 0px;
+  float: right;
+}
+
+.nav li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+
+/* HAVING ISSUES HERE
+––––––––––––––––––– */
+.nav li.selected {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(48, 152, 82);
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+/* END ISSUE
+––––––––––––––––––– */
+
+/* –––––––––––––––––––hero section––––––––––––––––––– */
+.hero {
+  background-image: url("http://c1.staticflickr.com/9/8855/18141061685_f55aecba5f_b.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+.herotext {
+  display: inline-block;
+  width: 800px;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#trybutton {
+
+  border-radius: 8px;
+  background-color: rgb(5, 154, 223);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 180px;
+  height: 40px;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+/* –––––––––––––––––––benefits section––––––––––––––––––– */
+#benefits {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#benefits.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.column_icons {
+  display:inline-block;
+  width: 140px;
+  height: 510px;
+  margin:8px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  float: left;
+}
+
+.column_small_paragraph {
+  display: inline-block;
+  height: 510px;
+  width: 370px;
+  line-height: 1.6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 8px;
+ }
+
+ .img_right {
+  float: right;
+ }
+
+/* HAVING ISSUES HERE
+––––––––––––––––––– */
+.create-icon {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background-color: rgb(5, 154, 223);
+}
+/* END ISSUE
+––––––––––––––––––– */
+
+
+
+
+/* –––––––––––––––––––how people use section––––––––––––––––––– */
+#use_jottly {
+  background-color: rgb(5, 154, 223);
+  width: 100%;
+  height: 520px;
+}
+
+.960_wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user_bio {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  width: 316px;
+  height: 235px;
+}
+
+.user_image {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user_carousel1 {
+  display: inline-block;
+  border-width: 3.5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+
+
+
+  /* –––––––––––––––––––************ STOPPED HERE **************
+
+https://lh6.googleusercontent.com/EgGz38IMS5kbL3dZOXAi7SSa2ChkyHCzDpn-AycUqIpCC6EumgZKsb0u0xcY2YL8ps4YyJCY1KdZpRg=w869-h559
+
+  ––––––––––––––––––– */
+
+.pricing {
+  background-color: rgb(232, 199, 28);
+  background-image: url("http://db.tt/aEw2GoUU");
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  width: 100%;
+  height: 600px;
+  text-align: center; /*---this centers the child divs within the parent---*/
+}
+
+
+.pricingboxes {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 275px;
+  margin: 20px;
+  padding: 20px 10px 15px 10px;
+  vertical-align: middle;
+
+}
+
+
+#buybutton {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgb(5, 154, 223);
+  margin: 20px;
+  padding: 0px 10px 0px 10px;
+  width: 250px;
+  height: 40px;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+
+
+.headline_blue {
+    color:#059adf;
+    font-size:26px; 
+}
+
+.headline_white { 
+    color:#ffffff;
+    font-size:26px;
+    text-align:center;
+    width: 100%;
+    padding:40px 30px;
+}
+
+.footer {
+  background-color:#050505;
+  margin: 0;
+  width: 100%;
+  height: 150px;
+  font-size:90%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.footer li {
+  display: inline-block;
+  color: #fff;
+  margin: 15px;
+
+}
+
+.footer_copyright {
+  color: #535454;
+
+}
+
+
+
+
+
+
+

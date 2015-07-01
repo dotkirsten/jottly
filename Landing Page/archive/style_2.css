@@ -1,0 +1,93 @@
+/******This is an ID*****/
+#main-headline {
+  font-size: 75px;
+  color: #ffffff;
+}
+
+/******This is for BPreplay font*****/
+@font-face {
+  font-family: 'BPreplay';
+  src: url('https://drive.google.com/file/d/0B850chTAYScZTnE4THM4dXl4YTA/view?usp=sharing') format('opentype')
+}
+
+
+/******This is a class*****/
+.main-text {
+  font-size: 24px;
+  font-family: 'BPreplay', Helvetica, Arial, sans-serif;
+  color: #ffffff
+  line-height: .8;
+  text-align: left;
+}
+
+
+/******This is for body*****/
+body {
+  background: #ffffff url(https://drive.google.com/thumbnail?id=0B850chTAYScZLXZqZ3l4ZTZBTEk&authuser=0&v=1429656289026&sz=w2560-h2202) no-repeat top left;
+  background-size:cover;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  padding: 30px 160px;
+}
+
+/******This is for the font*****/
+h1 {
+  font-size: 75px;
+  font-family: 'BPreplay', Helvetica, Arial, sans-serif;
+  color: #FFF;
+  line-height: .5;
+  text-align: left;
+}
+
+
+#laptop_image {
+  background-image: url("https://drive.google.com/thumbnail?id=0B850chTAYScZY0FnenJjMThXa1E&authuser=0&v=1429661388854&sz=w2560-h2202");
+  position: absolute;
+  left: 836px;
+  top: 744px;
+  width: 715px;
+  height: 430px;
+}
+
+.Benefit_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 2765px;
+  z-index: 33;
+}
+.Benefit_1_Description {
+  font-size: 26px;
+  font-family: "BPreplay";
+  color: rgb(232, 199, 28);
+  font-weight: bold;
+  line-height: 0.962;
+  text-align: left;
+  position: absolute;
+  left: 345px;
+  top: 690.947px;
+  width: 399px;
+  height: 108px;
+  z-index: 32;
+}
+.Forma_1 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 209px;
+  top: 677px;
+  width: 80px;
+  height: 80px;
+  z-index: 31;
+}
+.Icon_BG {
+  border-radius: 50%;
+  background-color: rgb(5, 154, 223);
+  position: absolute;
+  left: 170px;
+  top: 645px;
+  width: 140px;
+  height: 140px;
+  z-index: 30;
+}
+
