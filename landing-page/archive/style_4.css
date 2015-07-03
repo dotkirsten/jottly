@@ -1,0 +1,139 @@
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+  font-family: 'BPreplay';
+  src: url('https://drive.google.com/file/d/0B850chTAYScZTnE4THM4dXl4YTA/view?usp=sharing') format('opentype')
+}
+
+body {
+  background-color:rgb(255,255,255);
+  font-size:14px;
+  line-height:1.7;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  color:#535454;
+  padding: 0px;
+}
+
+
+
+h1, h2, h3 {
+  font-weight:normal;
+  color: #ffffff;
+}
+
+h1 {
+    font-size:45px;
+    text-align: center;
+}
+
+h2 {
+    font-size:20px;
+    line-height: .1;
+}
+
+
+/* IDs & Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+span.bignumber {
+  font-size: 65px;
+}
+
+span.goldtext {
+  font-size: 18px;
+  color: rgb(232, 199, 28);
+  font-weight: bold;
+}
+
+#username {
+  text-align: right;
+  font-style: italic;
+}
+
+#line {
+  border-width: 3px;
+  border-color: rgb(216, 216, 216);
+  border-style: solid;
+}
+
+
+/* Divs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div.hero {
+  background-image: url("http://c1.staticflickr.com/9/8855/18141061685_f55aecba5f_b.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  min-height: 500px;
+}
+
+div.herotext {
+  position: relative;
+  left: 15px;
+  top: 15px;
+  width: 800px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.benefits_section {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-left: 200px;
+}
+
+div.use_jottly {
+  background-color: #059adf;
+}
+div.benefits {
+  display: block;
+  height: 130px;
+  width: 370px;
+  line-height: 1.6;
+  padding: 5px 5px;
+ }
+
+div.pricingboxes {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 330px;
+  height: 385px;
+  padding: 8px 4px;
+}
+
+
+div.headline_blue {
+    color:#059adf;
+    font-size:26px; 
+}
+
+div.headline_white { 
+    color:#ffffff;
+    font-size:26px;
+    text-align:center;
+    padding:50px 50px; 
+}
+
+div.footer {
+  background-color:#535454;
+}
+
+
+div.footer_nav {
+  display: inline;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+
+
+

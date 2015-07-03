@@ -1,0 +1,75 @@
+Last login: Tue Apr 14 20:18:51 on ttys000
+Kirstens-iMac:~ Kirsten$ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln: /Users/Kirsten/bin/subl: No such file or directory
+Kirstens-iMac:~ Kirsten$ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+ln: /usr/local/bin/sublime: No such file or directory
+Kirstens-iMac:~ Kirsten$ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport~/bin/subl /usr/local/bin/sublime
+ln: /usr/local/bin/sublime: No such file or directory
+Kirstens-iMac:~ Kirsten$ ln -sf /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ln: /usr/local/bin/subl: No such file or directory
+Kirstens-iMac:~ Kirsten$ ln -s /Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl ~/bin/subl
+ln: /Users/Kirsten/bin/subl: No such file or directory
+Kirstens-iMac:~ Kirsten$ ls
+Applications		Desktop			GitHub			Music			sublime
+Creative Cloud Files	Documents		Library			Pictures
+Design Resources	Downloads		Movies			Public
+Kirstens-iMac:~ Kirsten$ mkdir bin
+Kirstens-iMac:~ Kirsten$ ln -s /Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl ~/bin/subl
+ln: /Users/Kirsten/bin/subl: No such file or directory
+Kirstens-iMac:~ Kirsten$ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+ln: /usr/local/bin/sublime: No such file or directory
+Kirstens-iMac:~ Kirsten$ ls ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+ls: -s: No such file or directory
+ls: /usr/local/bin/sublime: No such file or directory
+ls: ln: No such file or directory
+/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl
+Kirstens-iMac:~ Kirsten$ ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl
+Kirstens-iMac:~ Kirsten$ ls -la !$
+ls -la /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl
+-rwxr-xr-x@ 1 Kirsten  admin  414556 Jul  7  2013 /Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl
+Kirstens-iMac:~ Kirsten$ pwd
+/Users/Kirsten
+Kirstens-iMac:~ Kirsten$ cd bin
+Kirstens-iMac:bin Kirsten$ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+Kirstens-iMac:bin Kirsten$ echo $ PATH
+$ PATH
+Kirstens-iMac:bin Kirsten$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin
+Kirstens-iMac:bin Kirsten$ cd /usr/local/bin
+-bash: cd: /usr/local/bin: No such file or directory
+Kirstens-iMac:bin Kirsten$ mkdir -p !$
+mkdir -p /usr/local/bin
+mkdir: /usr/local/bin: Permission denied
+Kirstens-iMac:bin Kirsten$ sudo !!
+sudo mkdir -p /usr/local/bin
+
+WARNING: Improper use of the sudo command could lead to data loss
+or the deletion of important system files. Please double-check your
+typing when using sudo. Type "man sudo" for more information.
+
+To proceed, enter your password, or type Ctrl-C to abort.
+
+Password:
+Kirstens-iMac:bin Kirsten$ cd !$
+cd /usr/local/bin
+Kirstens-iMac:bin Kirsten$ !ln
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+ln: ./subl: Permission denied
+Kirstens-iMac:bin Kirsten$ sudo !!
+sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+Kirstens-iMac:bin Kirsten$ cd
+Kirstens-iMac:~ Kirsten$ mkdir git
+Kirstens-iMac:~ Kirsten$ cd git
+Kirstens-iMac:git Kirsten$ subl index.html
+Kirstens-iMac:git Kirsten$ subl ~/Documents/Bloc/Jottly/
+.DS_Store                        Jottly_Artboards.pdf             Jottly_Artboards_3_MY PICKS.ai   Landing Page/
+Color Pallete.rtf                Jottly_Artboards_2.pdf           Jottly_Artboards_3_MY PICKS.pdf  Logo/
+Dropbox/                         Jottly_Artboards_3.ai            Jottly_Artboards_4.ai            Wireframes/
+Jottly_Artboards.ai              Jottly_Artboards_3.pdf           Jottly_Artboards_4.pdf           
+Kirstens-iMac:git Kirsten$ subl ~/Documents/Bloc/Jottly/Landing\ Page/
+.DS_Store                         Jottly_LandingPage_ForReview.pdf  Other images/                     
+Jottly_LandingPage                Jottly_LandingPage_ForReview.psd  Patterns/                         
+Jottly_LandingPage_ForReview.jpg  Main Image/                       Source Code/                      
+Kirstens-iMac:git Kirsten$ subl ~/Documents/Bloc/Jottly/Landing\ Page/Source\ Code/index.html 
+Kirstens-iMac:git Kirsten$ 

@@ -1,0 +1,27 @@
+/******This is an ID*****/
+#main-headline {
+  font-size: 75px;
+  color: #ffffff;
+}
+
+#marketing {
+  background-color: #0000000 ;
+}
+
+
+/******This is a class*****/
+.main-text {
+  font-size: 24px;
+  color: #ffffff
+}
+
+
+/******This is for image bg*****/
+body {
+  background: #ffffff url(http://www.brazencareerist.com/blog/wp-content/uploads/2012/08/Attractive-Woman-Laptop-Coffee.jpg) no-repeat top center;
+}
+
+/******This is for the font*****/
+ h1 {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}

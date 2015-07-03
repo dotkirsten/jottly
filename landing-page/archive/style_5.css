@@ -1,0 +1,269 @@
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+  font-family: 'BPreplay';
+  src: url('https://drive.google.com/file/d/0B850chTAYScZTnE4THM4dXl4YTA/view?usp=sharing') format('opentype')
+}
+
+body {
+  background-color:rgb(255,255,255);
+  font-size:14px;
+  line-height:1.7;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  color:#535454;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+h1, h2, h3 {
+  font-weight:normal;
+  color: #ffffff;
+}
+
+h1 {
+    font-size:45px;
+    text-align: center;
+}
+
+h2 {
+    font-size:20px;
+    line-height: .1;
+}
+
+
+/* IDs & Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bignumber {
+  font-size: 65px;
+}
+
+.goldtext {
+  font-size: 18px;
+  color: rgb(232, 199, 28);
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+
+#line {
+  border-width: 3px;
+  border-color: rgb(216, 216, 216);
+  border-style: solid;
+}
+
+
+/* Divs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* –––––––––––––––––––nav section––––––––––––––––––– */
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+.nav li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+
+/* HAVING ISSUES HERE
+––––––––––––––––––– */
+.nav li.selected {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(48, 152, 82);
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+/* END ISSUE
+––––––––––––––––––– */
+
+/* –––––––––––––––––––hero section––––––––––––––––––– */
+.hero {
+  background-image: url("http://c1.staticflickr.com/9/8855/18141061685_f55aecba5f_b.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+}
+
+.herotext {
+  display: block;
+  width: 800px;
+  height: 600px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+#trybutton {
+  display: block;
+  border-radius: 8px;
+  background-color: rgb(5, 154, 223);
+  position: absolute;
+  left: 545px;
+  top: 200px;
+  width: 180px;
+  height: 40px;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-align: center;
+
+}
+
+/* –––––––––––––––––––benefits section––––––––––––––––––– */
+.benefits_section {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-left: 200px;
+}
+
+/* HAVING ISSUES HERE
+––––––––––––––––––– */
+.create-icon {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background-color: rgb(5, 154, 223);
+}
+/* END ISSUE
+––––––––––––––––––– */
+
+
+.benefits {
+  display: block;
+  height: 130px;
+  width: 370px;
+  line-height: 1.6;
+  padding: 5px 5px;
+ }
+
+
+/* –––––––––––––––––––how people use section––––––––––––––––––– */
+ .use_jottly {
+  background-color: rgb(5, 154, 223);
+  width: 1284px;
+  height: 541px;
+}
+
+
+.user_bio {
+  display: inline-block;
+  position: ;
+  color: #fff;
+  padding-left: 312px;
+  width: 316px;
+  height: 235px;
+}
+
+.user_image {
+  display: inline-block;
+}
+
+.user_carousel1 {
+  display: inline-block;
+  border-width: 3.5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+
+
+
+  /* –––––––––––––––––––************ STOPPED HERE **************
+
+https://lh6.googleusercontent.com/EgGz38IMS5kbL3dZOXAi7SSa2ChkyHCzDpn-AycUqIpCC6EumgZKsb0u0xcY2YL8ps4YyJCY1KdZpRg=w869-h559
+
+  ––––––––––––––––––– */
+
+.pricing {
+  background-color: rgb(232, 199, 28);
+  background-image: url("http://db.tt/aEw2GoUU");
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  width: 1279px;
+  height: 600px;
+  padding-top: 25px;
+  text-align: center; /*---this centers the child divs within the parent---*/
+}
+
+
+.pricingboxes {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 275px;
+  margin: 20px;
+  padding: 20px 10px 15px 10px;
+  vertical-align: middle;
+
+}
+
+
+#buybutton {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgb(5, 154, 223);
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  font-family:'BPreplay', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+
+
+.headline_blue {
+    color:#059adf;
+    font-size:26px; 
+}
+
+.headline_white { 
+    color:#ffffff;
+    font-size:26px;
+    text-align:center;
+    padding:50px 50px; 
+}
+
+.footer {
+  background-color:#535454;
+}
+
+
+.footer_nav {
+  display: inline;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
